@@ -1,0 +1,85 @@
+// nav bar background color
+$primary:#7c349E; 
+// body background color
+$secondary: #332042;
+// modal fade color
+$success:#3320422c;
+$tooltip-bg:#374656;
+// tooltip
+$tooltip-bg:#ffd902;
+$tooltip-color: #000000;
+$tooltip-padding-y: 10px;
+
+// nav dropdown image height width
+.nav-image{
+    width:30px;
+    height:20px;
+}
+// dropdown style
+.dropdownStyle{
+    width: 600px !important;
+    background-color: rgba(0, 0, 0, 0.288) !important;
+    
+    
+}
+.flag-item{
+    text-decoration: none !important;
+    color: aliceblue;
+}
+@media only screen and (max-width: 570px) {
+    .dropdownStyle  {
+        width: 100% !important;
+    }
+  }
+
+//   offcanvas style
+.offcanvas.show{
+    background-color: rgba(128, 0, 128, 0.75);
+    margin-top: 55px;
+    width: 80%;
+
+}
+// all text hover
+.text-hover:hover{
+    color: #fee300 !important;
+}
+// modal open body color
+.fade{
+    background: #3a3044b2;
+}
+// tooltip
+
+
+  .tooltip {
+    background-color: transparent !important;
+   
+  }
+  
+// login Style
+.inputstyle{
+    background: transparent !important;
+    border: 1px solid #ffd902 !important ;
+}
+::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  
+// link hover
+.text-decoration-none:hover{
+    text-decoration: underline !important;
+}
+// reCAPTCHAtextStyle
+.reCAPTCHAtextStyle{
+    
+    padding: 0px 120px 0px 120px;
+    
+}
+.smalltext{
+    font-size: 10px;
+}
+
+// registration modal 2nd col-5 icon and text top margin
+.mt{
+    margin-top: 70px !important;
+}
+@import '../node_modules/bootstrap/scss/bootstrap.scss'

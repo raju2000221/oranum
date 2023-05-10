@@ -1,0 +1,51 @@
+
+/* accordianStyle */
+.accordion{
+    background:  transparent !important;
+}
+.accordion-item{
+    background: #332043 !important;
+
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0% !important;
+
+   
+}
+.accordion-body{
+    background: #332043 !important;
+    color: aliceblue;
+}
+  
+.accordion-button{
+    background: transparent !important;
+    outline: none !important;
+    color: aliceblue;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed){
+    background: #332043 !important;
+    color: wheat !important;
+   
+}
+.accordion-button::after{
+    background-image: none;
+    content: ' \005E';
+    transform: rotate(180deg);
+    font-weight: 600;
+    font-size:30px;
+    
+
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+    content: ' \005E';
+    transform: rotate(0deg);
+    font-weight: 600;
+    font-size: 30px;
+    
+}
